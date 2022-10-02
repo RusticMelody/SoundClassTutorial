@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class CatController: MonoBehaviour
+
+public class CatController : MonoBehaviour
 {
-  public AudioClip musicClipOne;
+    public AudioClip musicClipOne;
 
-public AudioClip musicClipTwo;
+    public AudioClip musicClipTwo;
 
-public AudioSource musicSource;
+    public AudioSource musicSource;
 
-// Update is called once per frame
-void Update()
-{
+    // Update is called once per frame
+    void Update()
+    {
      if (Input.GetKeyDown(KeyCode.W))
         {
           musicSource.clip = musicClipOne;
