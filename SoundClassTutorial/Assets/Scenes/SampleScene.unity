@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 1904718579}
   - component: {fileID: 1904718578}
   m_Layer: 0
-  m_Name: Idle (1)
+  m_Name: Idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -470,9 +470,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85ee3aec2a3cfbd4ab8a0d4413910384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicClipOne: {fileID: 0}
-  musicClipTwo: {fileID: 0}
-  musicSource: {fileID: 0}
+  musicClipOne: {fileID: 8300000, guid: e726209cc8a357d4abf6af35cc10ad60, type: 3}
+  musicClipTwo: {fileID: 8300000, guid: 8dc677bf80c5d8a4093a3d3d20140399, type: 3}
+  musicSource: {fileID: 1904718579}
 --- !u!82 &1904718579
 AudioSource:
   m_ObjectHideFlags: 0
